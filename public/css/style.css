@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2%;
+}
+.demo{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+.header{
+    background-color: rgba(173, 227, 187, 0.808);
+    border: 1px rgb(5, 88, 11) solid;
+    color: rgb(5, 88, 11);
+    border-radius: 5px;
+}
+.header h1{
+    margin: 20px;
+    font-size: 1.5vw;
+}
+.menu{
+    background-color: black;
+    color: #ccc;
+    border-radius: 5px;
+}
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px ;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+.boxcontent{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+.boxcontent2{
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    background-color: #FFF;
+}
+.boxfooter{
+    padding: 10px ;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+    
+}
+.boxsp{
+    float:left;
+    width: 32%;
+    min-height: 320px;
+    border: 1px rgb(120, 113, 113) solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.boxsp .img{
+    min-height: 240px;
+    text-align: center;
+}
+.img img{
+    width:80%;
+}
+.menu ul{
+ padding:0px 15px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: #ccc;
+    text-decoration: none;
+    
+}
+.menu ul li a:hover{
+    color: white; 
+}
+
+/*box tài khoản*/
+.taikhoan{
+    line-height: 150%;
+}
+.taikhoan input[type="text"],
+.taikhoan input[type="password"],
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.taikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.taikhoan input[type="submit"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #ccc solid;
+}
+.taikhoan input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reser"]:hover
+.formcontent input[type="button"]:hover{
+  background-color: #ccc;
+}
+.taikhoan li a{
+    color:black;
+    text-decoration: none;
+}
+.taikhoan li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+/*Menu dọc*/
+
+.menudoc ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom: 1px #ccc solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color:#CCC ;
+}
+.searbox input[type="text"]{
+    width: 65%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border:1px #CCC solid;
+    border-radius: 5px;
+    color: #ccc;
+}
+.top10 img{
+    width: 20%;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    border: 1px #CCC solid;
+}
+.top10 a{
+    color: #666;
+    text-decoration: none;
+}
+.top10 a:hover{
+    color: #333;
+    text-decoration: underline;
+}
+.header2{
+    background-color:rgba(246, 200, 216, 0.311);
+    border:1px rgba(212, 87, 127, 0.621) solid;
+    color:rgba(165, 42, 42, 0.71);
+    border-radius: 5px;
+    padding: 8px 10px;
+    
+}
+.header2 h1{
+    font-size: 0.8vw;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.frmdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.frmdsloai table th{
+    padding: 20px;
+    background-color: rgba(24, 155, 153, 0.689);
+    border: 1px #CCC solid;
+}
+/*.frmdsloai table th:nth-child(2){
+    width: 30%;   
+    background-color: #CCC;
+}
+.frmdsloai table th:nth-child(3){
+    width: 40%; 
+    background-color: #CCC;
+}
+.frmdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #CCC;
+}*/
+.frmdsloai table td{
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+.gioithieu{
+    text-align: center;
+    color: red;
+}
+.spct{
+    text-align: center;
+}
+.mt{
+    margin-top: 10px;
+}
+
+.form-control{
+    width: 100%;
+    height: 30px;
+}
+.thongbao{
+    color: red;
+}
+.binhluan table{
+    width: 90%;
+    margin-left: 5%;
+}
+.binhluan table td:nth-child(1){
+    width: 50%;
+}
+.binhluan table td:nth-child(2){
+    width: 20%;
+}
+.binhluan table td:nth-child(3){
+    width: 30%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
